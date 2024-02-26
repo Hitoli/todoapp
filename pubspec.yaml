@@ -1,0 +1,42 @@
+name: todoapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.10+1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cards/cake-bday.png
+    - assets/cards/doge-xmas.png
+    - assets/cards/flower.png
+    - assets/cards/gift-happy.png
+    - assets/cards/gift-xmas.png
+    - assets/cards/happy-bday.png
+    - assets/cards/hohoho.png
+    - assets/cards/sock-xmas.png
+    - assets/icons/card.svg
+    - assets/icons/color.svg
+    - assets/icons/discover.svg
+    - assets/icons/gift-1.svg
+    - assets/icons/gift.svg
+    - assets/icons/home.svg
+    - assets/icons/mc.svg
+    - assets/icons/paypal.svg
+    - assets/icons/search.svg
